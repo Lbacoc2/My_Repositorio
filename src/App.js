@@ -1,10 +1,9 @@
-
 import './App.css';
-import Navbar from './componets/navbar/navbar';
+import ListCards from './componets/cards/Cards/ListCards'
+import Navbar from './componets/navbar/navbar/navbar';
 function App() {
   return (
     <div className="App">
-      <h1>Mi primer react</h1>
       <Navbar/>
       <ListCards/>
     </div>
